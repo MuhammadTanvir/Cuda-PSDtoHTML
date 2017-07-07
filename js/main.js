@@ -1,0 +1,51 @@
+$('.dial').knob(
+    {
+      'min':0,
+      'max':100,
+      'width':140,
+      'height':200,
+      'displayInput':true,
+      'fgColor':"#30bae7",
+      }
+        );
+$('.dial1').knob(
+    {
+      'min':0,
+      'max':100,
+      'width':140,
+      'height':200,
+      'displayInput':true,
+      'fgColor':"#d74680",
+      }
+        );
+$('.dial2').knob(
+    {
+      'min':0,
+      'max':100,
+      'width':140,
+      'height':200,
+      'displayInput':true,
+      'fgColor':"#15c7a8",
+      }
+        );
+$('.dial3').knob(
+    {
+      'min':0,
+      'max':100,
+      'width':140,
+      'height':200,
+      'displayInput':true,
+      'fgColor':"#eb7d4b",
+      }
+        );
+
+$(window).on ('scroll',function (){
+    if($(window).scrollTop()>550){
+      $('#menu').addClass('menu-bg'); 
+        
+    }
+    else{
+       $('#menu').removeClass('menu-bg');  
+    }
+    
+});
